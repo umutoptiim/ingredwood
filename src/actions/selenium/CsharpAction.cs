@@ -10,15 +10,10 @@ namespace actions.selenium{
         private void OpenWebPage()
 {
             string key = @"http\shell\open\command";
-            RegistryKey registryKey =
-            Registry.ClassesRoot.OpenSubKey(key, false);
-            // Varsayılan tarayıcının yolunu al.
-            // Aldığımız değer salt olarak programın
-            // yolu olmadığı için biraz işlememiz gerekiyor.
-            string defaultbrowserpath =
-            ((string)registryKey.GetValue(null, null)).Split('"')[1];
-            //Process.Start ile başlat
-            Process.Start(defaultbrowserpath, "http://www.google.com");
+	Microsoft.Win32.RegistryKey registryKey = Microsoft.Win32.Registry.ClassesRoot.OpenSubKey(key, false);
+	string defaultbrowserpath = ((string)registryKey.GetValue(null, null)).Split('"')[1];
+	System.Diagnostics.Process.Start(defaultbrowserpath, "http://www.yazilimindunyasi.com");
+	
 }
     }
 }

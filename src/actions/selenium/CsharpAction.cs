@@ -5,7 +5,7 @@ using System.Windows.Forms;
 namespace actions.selenium{
     class CsharpAction{
         
-                            private void tarayıcı_Ac()
+                            private void tarayici_Ac()
 {
  System.Diagnostics.Process.Start("http://google.com.tr/");
 }
@@ -13,7 +13,7 @@ namespace actions.selenium{
         
         public void run(Dictionary<string, object> Params){
           
-tarayıcı_Ac();
+tarayici_Ac();
            
         }
 

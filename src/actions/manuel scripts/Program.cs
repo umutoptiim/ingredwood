@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Fİrefox;
 
 /// <summary>
 /// VISUAL STUDIO ÜZERİNDEN REDWOODHQ'YA KOD COMMIT ETMEK
@@ -18,7 +18,7 @@ namespace testqa_repo
         {
 
             IWebDriver driver;
-            driver = new ChromeDriver("C:/Program Files/RedwoodHQ/public/automationscripts/Sample/admin/bin"); 
+            driver = new FirefoxDriver("C:/Program Files/RedwoodHQ/public/automationscripts/Sample/admin/bin"); 
             driver.Navigate().GoToUrl("https://www.optiim.com");
         }
     }

@@ -17,7 +17,7 @@ namespace actions.selenium{
           
           
            IWebDriver driver;
-            driver = new ChromeDriver("C:\\Program Files\\RedwoodHQ\\public\\automationscripts\\Sample\\admin\\bin\\chromedriver"); 
+            driver = new ChromeDriver("C:/Program Files/RedwoodHQ/public/automationscripts/Sample/admin/bin"); 
             driver.Navigate().GoToUrl("https://www.amazon.com");
             
         }

@@ -18,7 +18,7 @@ namespace testqa_repo
         {
 
             IWebDriver driver = new ChromeDriver();
-            driver.Url = "http://www.demoqa.com";
+           // driver.Url = "http://www.demoqa.com";
         }
     }
 }

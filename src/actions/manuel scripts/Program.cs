@@ -17,8 +17,9 @@ namespace testqa_repo
         static void Main(string[] args)
         {
 
-            IWebDriver driver = new ChromeDriver();
-            driver.Url = "http://www.demoqa.com";
+            IWebDriver driver;
+            driver = new ChromeDriver("C:/Program Files/RedwoodHQ/public/automationscripts/Sample/admin/bin"); 
+            driver.Navigate().GoToUrl("https://www.optiim.com");
         }
     }
 }

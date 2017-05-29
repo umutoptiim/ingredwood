@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.IE;
+
 
 /// <summary>
 /// VISUAL STUDIO ÜZERİNDEN REDWOODHQ'YA KOD COMMIT ETMEK
@@ -12,12 +14,12 @@ using OpenQA.Selenium.Chrome;
 
 namespace testqa_repo
 {
-    class Program
+    class Test
     {
         static void Main(string[] args)
         {
 
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = new InternetExplorerDriver();
             driver.Url = "http://www.optiim.com";
         }
     }

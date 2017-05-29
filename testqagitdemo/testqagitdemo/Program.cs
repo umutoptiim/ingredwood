@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.IE;
+
 
 
 /// <summary>
@@ -19,7 +19,7 @@ namespace testqa_repo
         static void Main(string[] args)
         {
 
-            IWebDriver driver = new InternetExplorerDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Url = "http://www.optiim.com";
         }
     }

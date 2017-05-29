@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
+
+
 /// <summary>
 /// VISUAL STUDIO ÜZERİNDEN REDWOODHQ'YA KOD COMMIT ETMEK
 /// </summary>
 
 namespace testqa_repo
 {
-    class Program
+    class Test
     {
         static void Main(string[] args)
         {

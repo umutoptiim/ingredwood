@@ -1,26 +1,15 @@
 using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
-
 
 
 namespace actions.selenium{
-    class CsharpAction{
-        
-        
-
-        
+    class CsharpBrowser{
         public void run(Dictionary<string, object> Params){
-          
-          
-           IWebDriver driver;
-            driver = new ChromeDriver(); 
-           // driver.Navigate().GoToUrl("https://www.amazon.com");
-            
+            IWebDriver driver;
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://www.amazon.com");
         }
-
     }
 }

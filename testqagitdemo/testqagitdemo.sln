@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testqagit", "testqagit\testqagit.csproj", "{6333BC99-A039-41B8-B33C-3C254A5E611D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testqagitdemo", "testqagitdemo\testqagitdemo.csproj", "{3B819C36-0E21-45E8-BD44-89FB28B0E300}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6333BC99-A039-41B8-B33C-3C254A5E611D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6333BC99-A039-41B8-B33C-3C254A5E611D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6333BC99-A039-41B8-B33C-3C254A5E611D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6333BC99-A039-41B8-B33C-3C254A5E611D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B819C36-0E21-45E8-BD44-89FB28B0E300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B819C36-0E21-45E8-BD44-89FB28B0E300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B819C36-0E21-45E8-BD44-89FB28B0E300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B819C36-0E21-45E8-BD44-89FB28B0E300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

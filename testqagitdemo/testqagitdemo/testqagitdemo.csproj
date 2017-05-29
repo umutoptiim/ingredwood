@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6333BC99-A039-41B8-B33C-3C254A5E611D}</ProjectGuid>
+    <ProjectGuid>{3B819C36-0E21-45E8-BD44-89FB28B0E300}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>testqagit</RootNamespace>
-    <AssemblyName>testqagit</AssemblyName>
+    <RootNamespace>testqagitdemo</RootNamespace>
+    <AssemblyName>testqagitdemo</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

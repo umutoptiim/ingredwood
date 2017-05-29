@@ -16,11 +16,10 @@ namespace actions.selenium{
         public void run(Dictionary<string, object> Params){
           
           
-          // IWebDriver driver;
-            //driver = new FirefoxDriver("C:\\Program Files\\RedwoodHQ\\public\\automationscripts\\Sample\\admin\\bin"); 
-           // driver.Navigate().GoToUrl("https://www.amazon.com");
-              IWebDriver driver = new FirefoxDriver();
-            driver.Url = "http://www.demoqa.com";
+           IWebDriver driver;
+            driver = new ChromeDriver("C:\\Program Files\\RedwoodHQ\\public\\automationscripts\\Sample\\admin\\bin\\chromedriver.exe"); 
+            driver.Navigate().GoToUrl("https://www.amazon.com");
+            
         }
 
     }

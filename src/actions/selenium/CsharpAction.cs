@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Chrome;
 
 
@@ -17,7 +16,7 @@ namespace actions.selenium{
           
           
            IWebDriver driver;
-            driver = new ChromeDriver();
+            driver = new ChromeDriver("C:\\Program Files\\RedwoodHQ\\public\\automationscripts\\Sample\\admin\\bin"); 
             driver.Navigate().GoToUrl("https://www.amazon.com");
         }
 
